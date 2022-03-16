@@ -1,0 +1,98 @@
+﻿@model Game.Models.GameModels.Monster
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+<h2>Create Character</h2>
+<div class="row">
+    <div class="col-md-8">
+        <section id="loginForm">
+            @using (Html.BeginForm("Save", "api"))
+            {
+                @Html.ValidationSummary(true, "Please fix the following errors.")
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Name)
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Name" })
+                    @Html.ValidationMessageFor(m => m.Name, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.Hits)
+                        @Html.TextBoxFor(m => m.Hits, new { type = "number", @class = "form-control", placeholder = "Hit Point" })
+                        @Html.ValidationMessageFor(m => m.Hits, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="col">
+                        @Html.LabelFor(m => m.AttackModifier)
+                        @Html.TextBoxFor(m => m.AttackModifier, new { type = "number", @class = "form-control", placeholder = "Attack Modifier" })
+                        @Html.ValidationMessageFor(m => m.AttackModifier, null, new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.Damage)
+                        @Html.TextBoxFor(m => m.Damage, new { @class = "form-control", placeholder = "Damage" })
+                        @Html.ValidationMessageFor(m => m.Damage, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="col">
+                        @Html.LabelFor(m => m.DamageModifier)
+                        @Html.TextBoxFor(m => m.DamageModifier, new {  type = "number", @class = "form-control", placeholder = "Damage" })
+                        @Html.ValidationMessageFor(m => m.DamageModifier, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="col">
+                        @Html.LabelFor(m => m.Ac)
+                        @Html.TextBoxFor(m => m.Ac, new { type = "number", @class = "form-control", placeholder = "AC" })
+                        @Html.ValidationMessageFor(m => m.Ac, null, new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="col">
+                    @Html.LabelFor(m => m.AttackPerRound)
+                    @Html.TextBoxFor(m => m.AttackPerRound, new { type = "number", @class = "form-control", placeholder = "Attack Per Round" })
+                    @Html.ValidationMessageFor(m => m.AttackPerRound, null, new { @class = "text-danger" })
+                </div>
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-success">Start</button>
+            }
+        </section>
+    </div>
+</div>
+
+
+@* *@
+@* <h2>Create Monster</h2> *@
+@* <div class="row"> *@
+@*     <div class="col-md-8"> *@
+@*         <section id="loginForm"> *@
+@*             <form id="account" method="post" asp-action="Save" asp-controller="Api"> *@
+@*                 <hr/> *@
+@*                 <div asp-validation-summary="All" class="text-danger"></div> *@
+@*                 <div class="form-group row"> *@
+@*                     <label class="col-md-2" asp-for="Name"></label> *@
+@*                     <div class=" col-md-10"> *@
+@*                         <input asp-for="Name" class="form-control"/> *@
+@*                         <span asp-validation-for="Name" class="text-danger"></span> *@
+@*                     </div> *@
+@*                 </div> *@
+@*                 <div class="form-group row"> *@
+@*                     <label class="col-md-2" asp-for="ArmorClass"></label> *@
+@*                     <div class=" col-md-10"> *@
+@*                         <input asp-for="ArmorClass" class="form-control"/> *@
+@*                         <span asp-validation-for="ArmorClass" class="text-danger"></span> *@
+@*                     </div> *@
+@*                 </div> *@
+@*                 <div class="form-group row"> *@
+@*                     <label class="col-md-2" asp-for="Hits"></label> *@
+@*                     <div class=" col-md-10"> *@
+@*                         <input asp-for="Hits" class="form-control"/> *@
+@*                         <span asp-validation-for="Hits" class="text-danger"></span> *@
+@*                     </div> *@
+@*                 </div> *@
+@*                 <div class="form-group"> *@
+@*                     <div class="col-md-10 offset-md-2"> *@
+@*                         <input type="submit" value="Create" class="btn btn-success"/> *@
+@*                     </div> *@
+@*                 </div> *@
+@*             </form> *@
+@*         </section> *@
+@*     </div> *@
+@* </div> *@

@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = GameDataBase
+build_property.RootNamespace = GameDataBase
+build_property.ProjectDir = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\
+build_property.RazorLangVersion = 5.0
+build_property.MSBuildProjectDirectory = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase
+build_property.DesignTimeBuild = True
+build_property._RazorReferenceAssemblyTagHelpersOutputPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\RazorTagHelper.refs.out.cache
+build_property._RazorSourceGeneratorDebug = 
+build_property._RazorSourceGeneratorLog = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/Api/AddMonster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Api\AddMonster.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\Api\AddMonster.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/Api/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Api\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\Api\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/Api/Monster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Api\Monster.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\Api\Monster.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Home\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\Home\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Home\Privacy.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\Home\Privacy.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Error.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\Shared\Error.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_Layout.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_ValidationScriptsPartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\_ViewImports.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\_ViewImports.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Desktop/Desktop/2_course/Git/Web_Game/GameDataBase/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\_ViewStart.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Desktop\Desktop\2_course\Git\Web_Game\GameDataBase\obj\Debug\net6.0\Razor\Views\_ViewStart.cshtml.g.cs
+build_metadata.AdditionalFiles.GeneratedDeclarationFullPath = 
+build_metadata.AdditionalFiles.CssScope =
