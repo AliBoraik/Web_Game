@@ -1,0 +1,69 @@
+﻿@model Game.Models.GameModels.Character
+
+@{
+    ViewData["Title"] = "Game Page";
+}
+<h2>Create Character</h2>
+<div class="row">
+    <div class="col-md-8">
+        <section id="loginForm">
+            @using (Html.BeginForm("Start", "Game"))
+            {
+                @Html.ValidationSummary(true, "Please fix the following errors.")
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Name)
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Name" })
+                    @Html.ValidationMessageFor(m => m.Name, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.HitPoints)
+                        @Html.TextBoxFor(m => m.HitPoints, new { type = "number", @class = "form-control", placeholder = "Hit Point" })
+                        @Html.ValidationMessageFor(m => m.HitPoints, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="col">
+                        @Html.LabelFor(m => m.AttackModifier)
+                        @Html.TextBoxFor(m => m.AttackModifier, new { type = "number", @class = "form-control", placeholder = "Attack Modifier" })
+                        @Html.ValidationMessageFor(m => m.AttackModifier, null, new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.DamageModifier)
+                        @Html.TextBoxFor(m => m.DamageModifier, new { type = "number", @class = "form-control", placeholder = "Damage Modifier" })
+                        @Html.ValidationMessageFor(m => m.DamageModifier, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="col">
+                        @Html.LabelFor(m => m.Weapon)
+                        @Html.TextBoxFor(m => m.Weapon, new { type = "number", @class = "form-control", placeholder = "Weapon" })
+                        @Html.ValidationMessageFor(m => m.Weapon, null, new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.Damage)
+                        @Html.TextBoxFor(m => m.Damage, new { @class = "form-control", placeholder = "Damage" })
+                        @Html.ValidationMessageFor(m => m.Damage, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="col">
+                        @Html.LabelFor(m => m.Ac)
+                        @Html.TextBoxFor(m => m.Ac, new { type = "number", @class = "form-control", placeholder = "AC" })
+                        @Html.ValidationMessageFor(m => m.Ac, null, new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.AttackPerRound)
+                        @Html.TextBoxFor(m => m.AttackPerRound, new { type = "number", @class = "form-control", placeholder = "Attack Per Round" })
+                        @Html.ValidationMessageFor(m => m.AttackPerRound, null, new { @class = "text-danger" })
+                    </div>
+                </div>
+                <hr/>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Start</button>
+                </div>
+                @Html.AntiForgeryToken()
+            }
+        </section>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@model List<GameLogic.Models.Result>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<table id="movies" class="table table-bordered table-hover">
+    <thead>
+    <hr/>
+    <tr>
+        <th>Id</th>
+        <th>Armor Class</th>
+    </tr>
+    @if (Model != null)
+    {
+        for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <th>@i</th>
+                <th>@Model[i].ResultDamage</th>
+            </tr>
+        }
+    }
+    </thead>
+</table>
