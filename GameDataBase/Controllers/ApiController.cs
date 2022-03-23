@@ -15,46 +15,6 @@ namespace GameDataBase.Controllers
             _db = db;
         }
 
-        // GET
-        public IActionResult Index()
-        {
-            // var m1 = new Monster
-            // {
-            //     Name = "Ледяная жаба",
-            //     Hits = 32,
-            //     AttackModifier = 3,
-            //     DamageModifier = 1,
-            //     Damage = "1d8",
-            //     Ac = 12,
-            //     AttackPerRound = 1
-            // };
-            // _db.Monsters.Add(m1);
-            // var m2 = new Monster
-            // {
-            //     Name = "Ааракокра",
-            //     Hits = 13,
-            //     AttackModifier = 4,
-            //     DamageModifier = 2,
-            //     Damage = "1d4",
-            //     Ac = 12,
-            //     AttackPerRound = 1
-            // };
-            // _db.Monsters.Add(m2);
-            // var m3 = new Monster
-            // {
-            //     Name = "Аббат",
-            //     Hits = 136,
-            //     AttackModifier = 8,
-            //     DamageModifier = 4,
-            //     Damage = "1d6",
-            //     Ac = 17,
-            //     AttackPerRound = 1
-            // };
-            // _db.Monsters.Add(m3);
-            // _db.SaveChanges();
-            return View();
-        }
-
         [HttpPost]
         public IActionResult GetMonster([FromBody] Character character)
         {
@@ -89,12 +49,7 @@ namespace GameDataBase.Controllers
 
         public IActionResult Monster()
         {
-            return View(_db.Monsters.ToList());
-        }
-
-        public IActionResult AddMonster()
-        {
-            return View();
+            return Ok(_db.Monsters.ToList());
         }
     }
 }
